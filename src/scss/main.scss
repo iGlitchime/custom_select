@@ -1,0 +1,40 @@
+html, body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.page {
+    background: linear-gradient(145deg, #84889C, #9B9EAE);
+    width: 100%;
+    padding: 50px;
+    height: 100vh;
+}
+
+.content {
+    background-color: #F7ECEB;
+    width: 600px;
+    height: auto;
+    display: block;
+    padding: 40px 0;
+    margin: 0 auto;
+    border-radius: 5px;
+    &__title {
+        margin: 20px auto;
+        background-color: #545871;
+        color: #F7ECEB;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+
+.wrapper-spacer{
+    height: 30px;
+}
+
+@import "plugin";

@@ -1,0 +1,22 @@
+{
+    "name": "custom_select_plugin",
+    "version": "1.0.0",
+    "description": "plugin to change custom select",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "gulp"
+    },
+    "author": "iaGauri",
+    "license": "MIT",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "^3.10.0",
+        "gulp-compass": "^2.1.0",
+        "gulp-jquery": "^1.1.2",
+        "gulp-plumber": "^1.2.0",
+        "gulp-sass": "^4.0.1",
+        "gulp-uglify": "^3.0.1",
+        "pump": "^3.0.0"
+    }
+}
